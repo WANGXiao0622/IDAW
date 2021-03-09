@@ -1,10 +1,19 @@
 .page{
-    background-color:#b0c4de;
+    background-color:#e0ffff;
 }
 
 .title_type{
-    background-color:#6495ed;
-    font-size:36pt;
+    background-color:#b0c4de;
+    font-size:30pt;
     text-align:center;
+}
+
+.bloc_type{
+    background-color:#b0c4de;
+    font-size:18pt;
+    font-style:italic;
+    margin-left:50px;
+    
+
 }
 
