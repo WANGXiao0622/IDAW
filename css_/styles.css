@@ -13,7 +13,16 @@
     font-size:18pt;
     font-style:italic;
     margin-left:50px;
-    
-
 }
 
+.corpus{
+    text-align:justify;
+    font-size:16pt;
+    margin-left:25px;
+}
+
+.footer_type{
+    text-align:right;
+    font-size:8pt;
+    font-style:italic;
+}
