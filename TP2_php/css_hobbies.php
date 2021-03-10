@@ -13,9 +13,7 @@
 
             <div class="title_type">
                 <h1 class="title">WANG Xiao</h1>
-                <a href="https://www.linkedin.com/in/xiao-wang-0b258618b/"><img src="/Users/wangxiao/IDAW/css_/linkedin.png" style="float:right" width="128" height="64">
-                
-                </a>
+                <a class="link_linkedin" href="https://www.linkedin.com/in/xiao-wang-0b258618b/">my link linkedin</a>
             </div>
 
             <div class="bloc_type">
@@ -27,8 +25,10 @@
             </div>
 
             <div class="corpus">
-                <h2>Who am I?</h2>
-                <p>  A student in IMT LILLE DOUAI who know nothing about web developement</p>
+                <h2>My hobbies:</h2>
+                <p>  MUSIC!!! 
+                    and collecting vinly records
+                </p>
             </div>
 
             <div class="footer_type">
