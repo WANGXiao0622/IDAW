@@ -31,6 +31,13 @@
     font-style:italic;
 }
 
+#currentpage{
+    color:#20B2AA;
+    font-style:normal;
+
+
+}
+
 .conteneur-flexible{
     display: flex;
     flex-flow: column wrap;
