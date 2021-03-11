@@ -1,3 +1,5 @@
+<?php
+/*
 <!doctype html>
 <html>
     <head>
@@ -9,9 +11,9 @@
     </head>
 
     <body>
-        <?php
-            require_once('template_header.php'); 
-        ?>
+    */
+        require_once('template_header.php');
+    ?>
 
         <div class="page">
 
@@ -39,9 +41,14 @@
                 <img src="/Users/wangxiao/IDAW/TP2_php/5.jpeg" alt="ice burge" style="float:left" width="256" height="512">
             </div>
 
+            <?php
+            /*
             <div class="footer_type">
                 site realized by html and css
             </div>
+            */
+                require_once('template_footer.php'); 
+            ?>
 
 
         </div>

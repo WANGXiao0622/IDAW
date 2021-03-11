@@ -42,9 +42,14 @@
                 <p>  A student in IMT LILLE DOUAI who know nothing about web developement</p>
             </div>
 
+            <?php
+            /*
             <div class="footer_type">
                 site realized by html and css
             </div>
+            */
+                require_once('template_footer.php'); 
+            ?>
 
 
         </div>

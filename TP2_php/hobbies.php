@@ -42,9 +42,14 @@
                 </p>
             </div>
 
+            <?php
+            /*
             <div class="footer_type">
                 site realized by html and css
             </div>
+            */
+                require_once('template_footer.php'); 
+            ?>
 
 
         </div>
