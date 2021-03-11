@@ -9,6 +9,10 @@
     </head>
 
     <body>
+        <?php
+            require_once('template_header.php'); 
+        ?>
+
         <div class="page">
 
             <div class="title_type">

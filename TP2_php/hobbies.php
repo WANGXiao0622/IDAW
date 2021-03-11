@@ -9,6 +9,10 @@
     </head>
 
     <body>
+        <?php
+            require_once('template_header.php'); 
+        ?>
+        
         <div class="page">
 
             <div class="title_type">
@@ -18,9 +22,9 @@
 
             <div class="bloc_type">
                 <ul class="menu">
-                    <li><a href="css_index.html">Accueil</a></li>
-                    <li><a href="css_cv.html">My CV</a></li>
-                    <li><a href="css_hobbies.html">My hobbies</a></li>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="cv.php">My CV</a></li>
+                    <li><a href="hobbies.php">My hobbies</a></li>
                 </ul>
             </div>
 
