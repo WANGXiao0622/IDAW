@@ -1,12 +1,12 @@
-<?php
-    <div class="bloc_type">
-        <ul>
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="cv.php">Cv</a></li>
-            <li><a href="hobbies.php">My hobbies</a></li>
-        </ul> 
+
+<div class="bloc_type">
+    <ul>
+        <li><a href="index.php">Accueil</a></li>
+        <li><a href="cv.php">Cv</a></li>
+        <li><a href="hobbies.php">My hobbies</a></li>
+    </ul> 
 </div>   
-?>
+
 
 <?php
 /*
