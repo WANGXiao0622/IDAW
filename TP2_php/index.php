@@ -34,7 +34,11 @@
                 </ul>
             </div>
             */
-                require_once('template_menu.php'); 
+                require_once('template_menu.php');
+                /*
+                renderMenuToHTML('index');
+                */
+
             ?>
 
             <div class="corpus">
