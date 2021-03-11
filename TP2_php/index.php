@@ -12,7 +12,7 @@
         <?php
             require_once('template_header.php'); 
         ?>
-        
+
         <div class="page">
 
             <div class="title_type">
@@ -22,6 +22,8 @@
                 </a>
             </div>
 
+            <?php
+            /*
             <div class="bloc_type">
                 <ul class="menu">
                     <li><a href="index.php">Accueil</a></li>
@@ -29,6 +31,9 @@
                     <li><a href="hobbies.php">My hobbies</a></li>
                 </ul>
             </div>
+            */
+                require_once('template_menu.php'); 
+            ?>
 
             <div class="corpus">
                 <h2>Who am I?</h2>
@@ -44,4 +49,25 @@
 
     </body>
 
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+  
+<?php
+// 这是单行注释
+
+# 这也是单行注释
+
+/*
+这是多行注释
+多行注释
+多行注释
+*/
+
+echo "Hello World!";
+?>
+  
+</body>
 </html>

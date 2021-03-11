@@ -12,7 +12,7 @@
         <?php
             require_once('template_header.php'); 
         ?>
-        
+
         <div class="page">
 
             <div class="title_type">
@@ -20,6 +20,8 @@
                 <a class="link_linkedin" href="https://www.linkedin.com/in/xiao-wang-0b258618b/">my link linkedin</a>
             </div>
 
+            <?php
+            /*
             <div class="bloc_type">
                 <ul class="menu">
                     <li><a href="index.php">Accueil</a></li>
@@ -27,6 +29,9 @@
                     <li><a href="hobbies.php">My hobbies</a></li>
                 </ul>
             </div>
+            */
+                require_once('template_menu.php'); 
+            ?>
 
             <div class="corpus">
                 <h2>My hobbies:</h2>
