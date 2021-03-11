@@ -13,16 +13,16 @@
 
             <div class="title_type">
                 <h1 class="title">WANG Xiao</h1>
-                <a href="https://www.linkedin.com/in/xiao-wang-0b258618b/"><img src="/Users/wangxiao/IDAW/css_/linkedin.png" style="float:right" width="128" height="64">
+                <a href="https://www.linkedin.com/in/xiao-wang-0b258618b/"><img src="/Users/wangxiao/IDAW/TP2_php/linkedin.png" style="float:right" width="128" height="64">
                 
                 </a>
             </div>
 
             <div class="bloc_type">
                 <ul class="menu">
-                    <li><a href="css_index.html">Accueil</a></li>
-                    <li><a href="css_cv.html">My CV</a></li>
-                    <li><a href="css_hobbies.html">My hobbies</a></li>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="cv.php">My CV</a></li>
+                    <li><a href="hobbies.php">My hobbies</a></li>
                 </ul>
             </div>
 

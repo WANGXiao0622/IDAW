@@ -18,16 +18,16 @@
 
             <div class="bloc_type">
                 <ul class="menu">
-                    <li><a href="css_index.html">Accueil</a></li>
-                    <li><a href="css_cv.html">My CV</a></li>
-                    <li><a href="css_hobbies.html">My hobbies</a></li>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="cv.php">My CV</a></li>
+                    <li><a href="hobbies.php">My hobbies</a></li>
                 </ul>
             </div>
 
             <div class="corpus">
                 <h2>My CV:</h2>
 
-                <img src="/Users/wangxiao/IDAW/css_/5.jpeg" alt="ice burge" style="float:left" width="256" height="512">
+                <img src="/Users/wangxiao/IDAW/TP2_php/5.jpeg" alt="ice burge" style="float:left" width="256" height="512">
             </div>
 
             <div class="footer_type">
