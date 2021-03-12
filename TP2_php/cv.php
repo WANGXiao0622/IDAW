@@ -5,7 +5,9 @@
 
             <div class="title_type">
                 <h1 class="title">WANG Xiao</h1>
-                <a class="link_linkedin" href="https://www.linkedin.com/in/xiao-wang-0b258618b/">my link linkedin</a>
+                <a href="https://www.linkedin.com/in/xiao-wang-0b258618b/">
+                    <img src="/Users/wangxiao/IDAW/TP2_php/linkedin.png" style="float:right" width="128" height="64">
+                </a>
             </div>
 
             <?php
@@ -15,9 +17,6 @@
                     $currentPageId = $_GET['page'];
                 }
                 renderMenuToHTML($currentPageId );
-            ?>
-
-                
             ?>
 
             <div class="corpus">
