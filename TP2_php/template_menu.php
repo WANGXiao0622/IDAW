@@ -17,7 +17,7 @@
             'cv' => array('Cv'),
             'hobbies' => array('My hobbies')  
         );
-        echo '<div class="bloc_type">'
+        echo '<div class="bloc_type">';
         echo "<ul>";
         foreach($mymenu as $pageId => $pageParameters) {
             if ($pageId == $currentPageId) {
