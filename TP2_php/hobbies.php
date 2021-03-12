@@ -9,7 +9,7 @@
 
             <?php
                 require_once('template_menu.php');
-                $currentPageId = 'accueil';
+                $currentPageId = 'hobbies';
                 if(isset($_GET['page'])) { 
                     $currentPageId = $_GET['page'];
                 }

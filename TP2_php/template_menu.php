@@ -13,9 +13,9 @@
         // un tableau qui definit la structure du site
         $mymenu = array(
         // idPage titre
-            'index' => array('Accueil'),
-            'cv' => array('Cv'),
-            'hobbies' => array('My hobbies')  
+            'index' => array('accueil'),
+            'cv' => array('cv'),
+            'hobbies' => array('hobbies')  
         );
         echo '<div class="bloc_type">';
         echo "<ul>";

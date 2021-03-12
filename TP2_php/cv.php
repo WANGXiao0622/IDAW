@@ -12,7 +12,7 @@
 
             <?php
                 require_once('template_menu.php');
-                $currentPageId = 'accueil';
+                $currentPageId = 'cv';
                 if(isset($_GET['page'])) { 
                     $currentPageId = $_GET['page'];
                 }
