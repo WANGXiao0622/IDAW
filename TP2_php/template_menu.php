@@ -13,17 +13,17 @@
         // un tableau qui definit la structure du site
         $mymenu = array(
         // idPage titre
-            'index' => array('accueil'),
-            'cv' => array('cv'),
-            'hobbies' => array('hobbies')  
+            'index' => array('Accueil'),
+            'cv' => array('My Cv'),
+            'hobbies' => array('My hobbies')  
         );
         echo '<div class="bloc_type">';
         echo "<ul>";
         foreach($mymenu as $pageId => $pageParameters) {
             if ($pageId == $currentPageId) {
-                echo "<li><a id='currentpage' href='" . $pageId . ".php'>" . $pageParameters . "</a></li>";
+                echo "<li><a id='currentpage' href='" . $pageId . ".php'>" . $pageParameters[0] . "</a></li>";
             } else {
-                echo "<li><a href='" . $pageId . ".php'>" . $pageParameters . "</a></li>";
+                echo "<li><a href='" . $pageId . ".php'>" . $pageParameters[0] . "</a></li>";
             }
         }
         echo "</ul>";
