@@ -21,7 +21,7 @@
         echo "<ul>";
         foreach($mymenu as $pageId => $pageParameters) {
             if ($pageId == $currentPageId) {
-                echo "<li><a class='currentpage' href='" . $pageId . ".php'>" . $pageParameters[0] . "</a></li>";
+                echo "<li><a id='currentpage' href='" . $pageId . ".php'>" . $pageParameters[0] . "</a></li>";
             } else {
                 echo "<li><a href='" . $pageId . ".php'>" . $pageParameters[0] . "</a></li>";
             }
