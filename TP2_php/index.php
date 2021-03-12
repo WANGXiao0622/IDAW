@@ -1,7 +1,7 @@
 
 <?php require_once('template_header.php');?>
 
-        <div class="page">
+        
 
             <div class="title_type">
                 <h1 class="title">WANG Xiao</h1>
@@ -31,9 +31,3 @@
 
             <?php require_once('template_footer.php'); ?>
 
-
-        </div>
-
-    </body>
-
-</html>
