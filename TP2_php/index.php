@@ -5,9 +5,13 @@
 
             <div class="title_type">
                 <h1 class="title">WANG Xiao</h1>
+            </div>
+
+            <div>
                 <a href="https://www.linkedin.com/in/xiao-wang-0b258618b/">
-                    <img src="/Users/wangxiao/IDAW/TP2_php/linkedin.png" style="float:right" width="128" height="64">
+                    <img src="/TP2_php/linkedin.png" style="float:right" width="150" height="64">
                 </a>
+                <div class="corpus" style="float:right">Contact me:</div>
             </div>
 
             <?php
