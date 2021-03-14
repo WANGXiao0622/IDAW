@@ -5,7 +5,7 @@
             <div class="title_type">
                 <h1 class="title">WANG Xiao</h1>
                 <a href="https://www.linkedin.com/in/xiao-wang-0b258618b/">
-                    <img src="/Users/wangxiao/IDAW/TP2_php/linkedin.png" style="float:right" width="128" height="64">
+                    <img src="/TP2_php/linkedin.png" style="float:right" width="128" height="64">
 
                 </a>
             </div>
@@ -13,16 +13,29 @@
             <?php
                 require_once('template_menu.php');
                 $currentPageId = 'cv';
+                $currentPageLang = 'en';
+
                 if(isset($_GET['page'])) { 
                     $currentPageId = $_GET['page'];
+                }
+                if(isset($_GET['lang'])) {
+                    $currentLanguage = $_GET['lang'];
                 }
                 renderMenuToHTML($currentPageId );
             ?>
 
-            <div class="corpus">
-                <h2>My CV:</h2>
+            <section class="corpus">
+                <?php
+                    if ($currentPageLang =='en'){
+                        $pageToInclude = "en/" . $currentPageId . "_corpus.php";
+                    } else{
+                        $pageToInclude = "fr/" . $currentPageId . "_corpus.php";
+                    }
 
-                <img src="/Users/wangxiao/IDAW/TP2_php/cv.jpeg" alt="ice burge" style="float:left" width="256" height="512">
-            </div>
+                    if(is_readable($pageToInclude)) 
+                        require_once($pageToInclude);
+                    else 
+                    require_once("error.php");
+                ?>
 
             <?php require_once('template_footer.php'); ?>
