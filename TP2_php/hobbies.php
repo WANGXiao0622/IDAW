@@ -14,12 +14,14 @@
                 }
                 renderMenuToHTML($currentPageId );
             ?>
-
-            <div class="corpus">
-                <h2>My hobbies:</h2>
-                <p>  MUSIC!!! 
-                    and collecting vinly records
-                </p>
-            </div>
+            
+            <section class="corpus">
+                <?php
+                    $pageToInclude = "fr/" . $currentPageId . "_corpus.php";
+                    if(is_readable($pageToInclude)) 
+                        require_once($pageToInclude);
+                    else 
+                    require_once("error.php");
+                ?>
 
             <?php require_once('template_footer.php'); ?>

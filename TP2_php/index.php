@@ -26,7 +26,7 @@
 
             <section class="corpus">
                 <?php
-                    $pageToInclude = $currentPageId . "_corpus.php";
+                    $pageToInclude = "fr/" . $currentPageId . "_corpus.php";
                     if(is_readable($pageToInclude)) 
                         require_once($pageToInclude);
                     else 
