@@ -1,13 +1,5 @@
 ## introduction
-
-
-bye
-bye the second time
-
-bye the third time
-
-
-bye the fourth time
-
-bye the fifth time
+    You can find the results for TP1 HTML/CSS, TP2 PHP, and TP3.
+    Note that the folder with name "TP2" is the final version.
+     
 
