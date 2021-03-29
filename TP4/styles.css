@@ -1,0 +1,61 @@
+.page{
+    background-color:#e0ffff;
+}
+
+.title_type{
+    background-color:#b0c4de;
+    font-size:30pt;
+    text-align:center;
+}
+.link_linkedin{
+    margin-right:10px;
+    
+}
+
+.bloc_type{
+    background-color:#b0c4de;
+    font-size:18pt;
+    font-style:italic;
+    margin-left:50px;
+}
+
+.corpus{
+    text-align:justify;
+    font-size:16pt;
+    margin-left:25px;
+}
+
+.footer_type{
+    text-align:right;
+    font-size:12pt;
+    font-style:italic;
+}
+
+#currentpage{
+    color:#20B2AA;
+    font-style:normal;
+
+
+}
+
+.conteneur-flexible{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: #0AD; /*Bleu*/
+    width: 100%;
+    height: 500px;
+    border: 2px 	#F0F8FF;
+    box-sizing: border-box;
+}
+
+.element-flexible{
+    flex: 1 1 50px;
+    background-color: #0DA; /*Vert*/
+    width: 40%;
+    border: 2px solid green;
+    box-sizing: border-box;
+    margin: 10px;
+}
